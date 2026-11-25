@@ -1,0 +1,11 @@
+name: cliffprune-rbln
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - numpy>=1.24
+      - torch==2.8.0+cpu
+      - torchvision==0.23.0+cpu

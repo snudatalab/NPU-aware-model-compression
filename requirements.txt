@@ -1,0 +1,5 @@
+# The RBLN compiler is a private vendor package and is installed separately.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy>=1.24
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
